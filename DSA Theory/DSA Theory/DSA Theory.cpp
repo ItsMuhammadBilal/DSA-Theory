@@ -1,3 +1,5 @@
+/*This is a driver program for priority queue. It adds nodes and removes from the queue*/
+
 #include<iostream>
 #include"Node.h"
 #include"Stack.h"
@@ -18,7 +20,7 @@ int main()
 	n3->setData(100);
 	n3->setPriority(1);
 
-
+	//Adding nodes in the priority queue
 	cout << "Adding values to first queue " << endl;
 	cPriorityQue q1;
 	q1.add(n1);
